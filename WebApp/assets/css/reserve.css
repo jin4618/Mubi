@@ -1,0 +1,170 @@
+* {
+    font-size: 11px;
+}
+
+/* content */
+
+.reserve-container {
+    margin-top: 140px;
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    /* border: 1px solid #dddddd; */
+}
+
+.reserve-container>div {
+    border: 1px solid #dddddd;
+}
+
+.reserve-title {
+    border-bottom: 1px solid #dddddd;
+    background-color: #b577ff;
+    text-align: center;
+    color: #dddddd;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.movie-part {
+    width: 400px;
+}
+
+.theater-part {
+    width: 400px;
+}
+
+.day-part {
+    width: 300px;
+}
+
+.time-part {
+    width: 200px;
+}
+
+
+
+.theater-wrapper {
+    padding-left: 12px;
+    padding-top: 2px;
+    display: flex;
+}
+
+.theater-location-wrapper {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.theater-place-wrapper {
+    padding-right: 2px;
+    margin-top: 2px;
+    height: 300px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.ticketList{
+	
+	padding: 6px 5px;
+    height: 40px;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.theater-location {
+    height: 30px;
+    font-size: 11px;
+    text-align: right;
+    background-color: #E6E4D9;
+    padding: 6px 6px 6px 0;
+    margin-top: 1px;
+}
+
+.theater-place {
+    padding: 6px 5px;
+    height: 40px;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.reserve-time {
+    width: 300px;
+    margin: 0 auto;
+}
+
+.reserve-where {
+    font-size: 12px;
+    margin-top: 20px;
+    margin-left: 8px;
+    font-weight: bold;
+}
+
+.reserve-time-wrapper {
+    margin-top: 10px;
+}
+
+.reserve-time-button {
+    margin-top: 10px;
+}
+
+.reserve-time-want {
+    letter-spacing: 1px;
+    font-size: 12px;
+    padding: 3px;
+    font-weight: bold;
+    border: 1px solid #dddddd;
+}
+
+.reserve-time-remain {
+    color: #97B68D;
+}
+
+.reserve-time-active {
+    background-color: #333333;
+    color: white;
+}
+
+.theater-place-active {
+    background-color: #333333;
+    color: white;
+}
+
+.movie-list-wrapper {
+    padding: 4px 15px;
+}
+
+.movie-list {
+ /*    display: flex;
+    align-items: center;
+    margin-top: 10px; */
+   
+     padding-right: 2px;
+    margin-top: 5px;
+    height: 300px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+
+.movie-list-title {
+    padding: 6px 4px;
+    margin-left: 5px;
+    font-size: 12px;
+}
+
+.movie-list-title-active {
+    background-color: #333333;
+}
+
+.movie-list-title-active>button {
+    font-weight: bold;
+    color: white;
+}
