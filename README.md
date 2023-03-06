@@ -19,7 +19,7 @@
 </br>
 
 ### 3.ERD
-<img src="./Mubi_ERD.png" width="700" height="350">
+<img src="./Mubi_ERD.png" width="800" height="400">
 
 </br>
 
