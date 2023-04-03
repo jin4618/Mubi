@@ -140,7 +140,7 @@
 -	메인 화면에서 영화 상세 보기를 누를 시 해당 영화에 맞는 영화 상세 설명과 리뷰 목록을 출력한다.
     - View에서 상세보기 누를 때 a 링크에 영화 제목을 같이 가져가 Controller를 거쳐 Command에서 equals로 조건을 주어 Controller 경로를 지정해준다. ✔️ [코드확인](https://github.com/jin4618/Mubi/blob/9f51c274d68212a8a29bb91d95cc2b44e7da4a37/src/com/comment/my/Allcomment.java)
 -	댓글 등록 시 아이디 세션을 함께 Controller로 보내어 ‘reviewtable’ 테이블에 댓글 내용과 아이디를 저장한다.
--	댓글 수정 시 시퀀스 키인 댓글 고유 번호와 영화 title 조건으로 걸어 그에 맞는 영화 정보 페이지에서 수정 댓글을 작성하여 UPDATE  ✔️ [코드확인](https://github.com/jin4618/Mubi/blob/f9311fe344e8c30c7263e6d10db1f1994d99cba0/WebApp/movieinformationA.jsp#L134)
+-	댓글 수정 시 시퀀스 키인 댓글 고유 번호와 영화 title을 조건으로 걸어 그에 맞는 영화 정보 페이지에서 수정 댓글을 작성하여 UPDATE  https://github.com/jin4618/Mubi/blob/f9311fe344e8c30c7263e6d10db1f1994d99cba0/WebApp/movieinformationA.jsp#L134
 
 
 </br>
