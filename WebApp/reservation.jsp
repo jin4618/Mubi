@@ -86,7 +86,7 @@ body, talbe, th, td, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6,
                     <h2 class="ir_so">최신 영화 정보</h2>
                     <div class="movie_title">
                         <ul>
-                            <li class="active"><a href="#">영화관 정보</a></li>
+                            <li class="active"><a href="#">상영시간표</a></li>
                        
                         </ul>
                         
@@ -107,7 +107,7 @@ body, talbe, th, td, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6,
  </div>
         </div>
         <div class="theater-part">
-            <div class="reserve-title">영화관</div>
+            <div class="reserve-title">상영관</div>
                <div class="theater-place-wrapper">
 					<c:forEach var="thvo" items="${theater }">
 						<a href="searchDate.do?title=${orititle }&theater=${thvo.theater }" >${thvo.theater }</a><br>
@@ -152,7 +152,7 @@ body, talbe, th, td, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6,
         
         
         <div class="theater-part">
-            <div class="reserve-title">영화관</div>
+            <div class="reserve-title">상영관</div>
                <div class="theater-place-wrapper">
 					 ${oritheater }             
                   	  </div>
@@ -178,7 +178,7 @@ body, talbe, th, td, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6,
 
 </form>
 <br>
-<h4>상영관 위치</h4>
+<h4>영화관 위치</h4>
 <div id="map" style="width:100%;height:350px;"></div>
 
 <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=d4fb441d1b6839cf1e4a9522ce1cd2df"></script>
@@ -293,7 +293,7 @@ infowindow.open(map, marker);
                        </ul>
                         <address>
                             <p>서울특별시 동작구 노량진동, 2층 Mubi(주) (노량진, KG아이티뱅크)<br><span class="bar2">대표자명 김동환</span> 개인정보보호 김지은 노대성<br><span class="bar2">사업자등록번호 012-345-6789</span> 통신판매업신고번호 제 777호</p>
-                            <p>Copyright 2014 by Mubi Inc. All right reserved</p>
+                            <p>Copyright 2022 by Mubi Inc. All right reserved</p>
                         </address>
                     </div>
                 </div>

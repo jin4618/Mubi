@@ -154,7 +154,7 @@ body, talbe, th, td, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6,
                        </ul>
                         <address>
                             <p>서울특별시 동작구 노량진동, 2층 Mubi(주) (노량진, KG아이티뱅크)<br><span class="bar2">대표자명 김동환</span> 개인정보보호 김지은 노대성<br><span class="bar2">사업자등록번호 012-345-6789</span> 통신판매업신고번호 제 777호</p>
-                            <p>Copyright 2014 by Mubi Inc. All right reserved</p>
+                            <p>Copyright 2022 by Mubi Inc. All right reserved</p>
                         </address>
                     </div>
                 </div>

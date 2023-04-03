@@ -29,9 +29,9 @@ public class userLogin implements userImpl {
 		
 		userDAO udao = new userDAO();
 		int login = udao.userLogin(id, pw);
-		int delete = udao.userDelete(id, pw);
+		//int delete = udao.userDelete(id, pw);
 		
-		System.out.println(delete + " dd");
+		//System.out.println(delete + " dd");
 		
 		String result = "";
 		
@@ -55,7 +55,7 @@ public class userLogin implements userImpl {
 			session.setAttribute("login", login);
 		}
 		
-		System.out.println(result + login + delete);
+		//System.out.println(result + login + delete);
 		
 		udao.userLogin(id, pw);
 		

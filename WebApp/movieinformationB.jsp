@@ -91,7 +91,7 @@ span.x-small {font-size:12px;}
                     <h2 class="ir_so">최신 영화 정보</h2>
                     <div class="movie_title">
                         <ul>
-                            <li class="active"><a href="#">영화정보</a></li>
+                            <li class="active"><a href="#">영화 정보</a></li>
                         </ul>
                     </div>
                     <div class="movie_chart">
@@ -208,7 +208,7 @@ span.x-small {font-size:12px;}
                        </ul>
                         <address>
                             <p>서울특별시 동작구 노량진동, 2층 Mubi(주) (노량진, KG아이티뱅크)<br><span class="bar2">대표자명 김동환</span> 개인정보보호 김지은 노대성<br><span class="bar2">사업자등록번호 012-345-6789</span> 통신판매업신고번호 제 777호</p>
-                            <p>Copyright 2014 by Mubi Inc. All right reserved</p>
+                            <p>Copyright 2022 by Mubi Inc. All right reserved</p>
                         </address>
                     </div>
                 </div>
