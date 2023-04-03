@@ -46,29 +46,24 @@
 
 #### 4-1. 전체흐름
 
+<img src="img/MVC2.png" width="600" height="300">
 <img src="img/프로젝트구조.png" width="700" height="350">
 </br>
 </br>
 
-<!--
-#### 4-2. Connection ✔️ [코드확인](https://github.com/jin4618/cafesmartorder/blob/4ce1b1a21be77d43740bc542db8b9ff976e21174/src/connection/Connection1.java#L3-L23)
+
+#### 4-2. Connection ✔️ [코드확인]()
 -	JDBC를 활용한 OracleDB 연결
 
 </br>
 
 #### 4-3. 메인 화면
 
-<img src="img/Main.png" width="600" height="300">
+<img src="img/Main1.png" width="600" height="300">
+<img src="img/Main2.png" width="600" height="300">
 </br>
 
--	오늘의 인기메뉴</br>
- => 결제할 때마다 주문 내역을 ‘total’ 테이블에 메뉴와 수량을 저장하여 가장 많이 팔린 메뉴 출력 ✔️ [코드확인](https://github.com/jin4618/cafesmartorder/blob/671901a5c604aab8d1ec731f939ebe9a8a34c87f/src/total/TotalDAO.java#L41-L64)
 
--	회원생성 버튼</br>
--	메뉴 버튼</br>
--	결제 버튼</br>
--	취소 버튼 (추가한 메뉴들 초기화)</br>
--	회원 탈퇴 버튼</br>
 
 </br>
 
@@ -81,11 +76,11 @@
 - 회원 번호(핸드폰 번호 뒤 4자리) 입력 => DB에서 'member1' 테이블에서 데이터를 조회하여 delete
 </br>
 
-#### 4-5. 주문
+#### 4-5. 로그인
 
-<img src="img/Order.png" width="600" height="300">
+<img src="img/Login.png" width="600" height="300">
 </br>
-
+<!--
 -	수량 입력
 -	메뉴 추가할 때마다 추가한 메뉴, 수량 및 가격 출력 => DB에서 ‘CafeTable’ 테이블에 저장 ✔️ [코드확인](https://github.com/jin4618/cafesmartorder/blob/671901a5c604aab8d1ec731f939ebe9a8a34c87f/src/order/OrderDAO.java#L130-L196) </br>
 </br>
