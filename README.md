@@ -150,7 +150,7 @@
 <img src="img/Reservation.png" width="600" height="300">
 </br>
 
--	지도 API를 이용하여 영화관 위치를 확인한다.
+-	지도 API를 이용하여 영화관 위치를 확인한다. ✔️ [코드확인](https://github.com/jin4618/Mubi/blob/12139288e88587848d29579b13058271dc02ca2b/WebApp/reservation.jsp#L181-L217)
 -	보고 싶은 영화, 상영관, 날짜, 시간을 선택한 후 예매하기를 진행한다. => Controller를 거쳐 DB에서 ‘ticket’ 테이블에 가격과 함께 저장
 </br>
 
