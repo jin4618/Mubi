@@ -176,7 +176,69 @@
 </br>
 
 ### 5. 핵심 트러블 슈팅
-#### 5-1. 결제 후 화면 이동
+
+#### 5-1. 예매할 때 선택한 것만 뜨는 것이 아닌 선택해도 모든 목록이 보여 헷갈리는 문제
+상영시간표 테이블 밑에 결과 테이블을 하나 더 생성하여 선택할 때마다 Attribute로 가져와 조건으로 걸 영화, 상영관, 날짜, 시간 순으로 유저가 선택한 것들만 출력되도록 해결
+<details>
+<summary>기존 코드</summary>
+<img src="img/ReservationOri.png" width="600" height="300">
+
+</details>
+
+<details>
+<summary>개선된 코드</summary>
+https://github.com/jin4618/Mubi/blob/d6b148ec3210f3c00e186182742a1a001a69481f/WebApp/reservation.jsp#L96-L179
+</details>
+
+
+</br>
+
+#### 5-2. 결제 후 페이지 이동
+결제 후 페이지가 이동하지 않고 빈 화면으로 뜨는 문제
+<details>
+<summary>기존 코드</summary>
+    
+    if ( rsp.success ) {
+	    	jQuery.ajax({
+	    	url: "<%=request.getContextPath()%>index.jsp",
+	    	type :'POST',
+	    	dataType: 'json',
+		data: {
+    		"id": "<%=id%>",
+    		"title" : "${orititle }",
+    		"theater" : "${oritheater }",
+    		"scheduleDate" : "${oridate }",
+    		"scheduleTime" : "${oritime }",
+    		"price" : "10000"
+    
+    		} 
+	    	}).done(function(data) {
+	    		location.href="index.jsp";
+	    	});
+    } else {
+        var msg = '결제에 실패하였습니다.';
+        msg += '에러내용 : ' + rsp.error_msg;
+    	alert(msg);
+        location.href="rscreen.do";
+    }
+
+</details>
+
+<details>
+<summary>개선된 코드</summary>
+https://github.com/jin4618/Mubi/blob/d6b148ec3210f3c00e186182742a1a001a69481f/WebApp/kakaopay.jsp#L51-L85
+</details>
+
+
+</br>
+
+#### 5-3. 리뷰 수정 시 수정하는 페이지로 넘어갈 때 각 영화마다 페이지를 만들어 페이지가 많아지는 문제
+<details>
+<summary>개선된 코드</summary>
+    
+- JSTL을 활용하여 영화 title로 조건을 주고 그에 맞게 내용이 출력되도록 한 페이지로 해결
+https://github.com/jin4618/Mubi/blob/d6b148ec3210f3c00e186182742a1a001a69481f/WebApp/commentSearchOne.jsp#L98-L203
+</details>
 
 
 </br>
