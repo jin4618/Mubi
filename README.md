@@ -57,14 +57,27 @@
 
 </br>
 
-#### 4-3. 메인 화면
+#### 4-3. 관리자 페이지
+##### ‘usertable’에 저장된 관리자 계정과 비교하여 로그인 ✔️ [코드확인](https://github.com/jin4618/Mubi/blob/6f466c29b4a08575fd83d17868638eb34816e1d0/src/user/userDAO.java#L38-L41)
+<!-- ✔️ [Command 코드확인](https://github.com/jin4618/Mubi/blob/6f466c29b4a08575fd83d17868638eb34816e1d0/src/com/Mubi/impl/user/userLogin.java#L38-L43) -->
+<img src="img/Admin.png" width="600" height="300">
+</br>
+
+✔️ [코드확인](https://github.com/jin4618/Mubi/blob/6f466c29b4a08575fd83d17868638eb34816e1d0/src/screen/screenDAO.java)
+-	상영관 등록 / 조회 => Controller를 거쳐 ‘theater’ 테이블에 insert
+-	개봉 영화 등록 / 조회 => Controller를 거쳐 ‘movie’ 테이블에 insert
+-	상영시간표 등록 / 조회 => Controller를 거쳐 ‘schedule’ 테이블에 insert
+
+</br>
+
+#### 4-4. 메인 화면
 
 <img src="img/Main1.png" width="600" height="300">
 <img src="img/Main2.png" width="600" height="300">
 </br>
 
 -	로그인 / 회원가입
--	영화 정보 swiper / 순위 ✔️ [코드확인]()
+-	영화 정보 swiper / 순위 ✔️ [코드확인](https://github.com/jin4618/Mubi/blob/6f466c29b4a08575fd83d17868638eb34816e1d0/WebApp/index.jsp#L320-L338)
 - 영화 예매하기
 -	영화 상세보기
 -	내 정보 수정
@@ -95,7 +108,7 @@
 
 #### 4-6. 회원정보 수정
 
-<img src="img/Pay.png" width="600" height="300">
+<img src="img/Join.png" width="600" height="300">
 </br>
 
 -	아이디와 생년월일을 제외한 비밀번호, 이름, 이메일, 전화번호, 주소를 입력 => 아이디 세션과 함께 Controller를 거쳐 DB에서 ‘usertable’ 테이블에 회원정보를 update 한다.
