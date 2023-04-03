@@ -99,11 +99,11 @@
 
 </br>
 
-#### 4-6. 로그인 ✔️ [Controller](https://github.com/jin4618/Mubi/blob/9f51c274d68212a8a29bb91d95cc2b44e7da4a37/src/com/Mubi/controller/Controller.java#L113-L123) ✔️ [Command](https://github.com/jin4618/Mubi/blob/9f51c274d68212a8a29bb91d95cc2b44e7da4a37/src/com/Mubi/impl/user/userLogin.java) ✔️ [View](https://github.com/jin4618/Mubi/blob/9f51c274d68212a8a29bb91d95cc2b44e7da4a37/WebApp/index.jsp#L80-L86)
+#### 4-6. 로그인 ✔️ [Controller](https://github.com/jin4618/Mubi/blob/9f51c274d68212a8a29bb91d95cc2b44e7da4a37/src/com/Mubi/controller/Controller.java#L113-L123) ✔️ [Command](https://github.com/jin4618/Mubi/blob/9f51c274d68212a8a29bb91d95cc2b44e7da4a37/src/com/Mubi/impl/user/userLogin.java)
 
 <img src="img/Login.png" width="600" height="300">
 
-##### 로그인 후 Main
+##### 로그인 후 Main ✔️ [View](https://github.com/jin4618/Mubi/blob/9f51c274d68212a8a29bb91d95cc2b44e7da4a37/WebApp/index.jsp#L80-L86)
 
 <img src="img/AfterLogin.png" width="600" height="50">
 </br>
