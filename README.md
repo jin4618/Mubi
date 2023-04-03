@@ -99,7 +99,7 @@
 
 </br>
 
-#### 4-6. 로그인 ✔️ [Controller](https://github.com/jin4618/Mubi/blob/9f51c274d68212a8a29bb91d95cc2b44e7da4a37/src/com/Mubi/controller/Controller.java#L113-L123) ✔️ [Command](https://github.com/jin4618/Mubi/blob/9f51c274d68212a8a29bb91d95cc2b44e7da4a37/src/com/Mubi/impl/user/userLogin.java)
+#### 4-6. 로그인 ✔️ [Controller](https://github.com/jin4618/Mubi/blob/9f51c274d68212a8a29bb91d95cc2b44e7da4a37/src/com/Mubi/controller/Controller.java#L113-L123) ✔️ [Command](https://github.com/jin4618/Mubi/blob/9f51c274d68212a8a29bb91d95cc2b44e7da4a37/src/com/Mubi/impl/user/userLogin.java) ✔️ [DAO](https://github.com/jin4618/Mubi/blob/9f51c274d68212a8a29bb91d95cc2b44e7da4a37/src/user/userDAO.java#L26-L54)
 
 <img src="img/Login.png" width="600" height="300">
 
