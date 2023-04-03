@@ -67,7 +67,7 @@
 
 </br>
 
-#### 4-4. 회원가입 및 탈퇴 ✔️ [코드확인](https://github.com/jin4618/cafesmartorder/blob/77eb38e12f8fdd77cdf12e8586e39f07396a9116/src/member/MemberDAO.java#L20-L52)
+#### 4-4. 회원가입 및 탈퇴 ✔️ [코드확인]()
 
 <img src="img/Member.png" width="600" height="300">
 </br>
