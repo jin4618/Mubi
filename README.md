@@ -66,7 +66,7 @@
 <img src="img/Admin.png" width="600" height="300">
 </br>
 
-✔️ [코드확인](https://github.com/jin4618/Mubi/blob/6f466c29b4a08575fd83d17868638eb34816e1d0/src/screen/screenDAO.java)
+✔️ [코드확인](https://github.com/jin4618/Mubi/blob/6f466c29b4a08575fd83d17868638eb34816e1d0/src/ticketDAO/ticketDAO.java#L30-L135)
 -	상영관 등록 / 조회 => Controller를 거쳐 ‘theater’ 테이블에 INSERT
 -	개봉 영화 등록 / 조회 => Controller를 거쳐 ‘movie’ 테이블에 INSERT
 -	상영시간표 등록 / 조회 => Controller를 거쳐 ‘schedule’ 테이블에 INSERT
