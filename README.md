@@ -52,7 +52,7 @@
 </br>
 
 
-#### 4-2. Connection ✔️ [코드확인]()
+#### 4-2. Connection ✔️ [코드확인](https://github.com/jin4618/Mubi/blob/1195f0d80e1d486736aeea554c1004a6a93a2359/src/dbconn/DBConn.java)
 -	JDBC를 활용한 OracleDB 연결
 
 </br>
