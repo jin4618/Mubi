@@ -94,7 +94,8 @@
 <img src="img/Join.png" width="600" height="300">
 </br>
 
--	아이디, 비밀번호, 이름, 생년월일, 이메일, 전화번호, 주소를 입력 => Controller를 거쳐 DB에서 ‘usertable’ 테이블에 회원정보를 INSERT
+-	아이디, 비밀번호(5자리 이상), 이름, 생년월일, 이메일, 전화번호, 주소를 입력
+    - Controller를 거쳐 DB에서 ‘usertable’ 테이블에 회원정보를 INSERT
 
 
 </br>
