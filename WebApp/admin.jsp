@@ -110,6 +110,6 @@
 	</c:forEach>
 </div>
 
-	<a href="index.jsp" style="margin-left: 700px;">돌아가기</a>
+	<a href="logout.do" style="margin-left: 700px;">돌아가기</a>
 </body>
 </html>
